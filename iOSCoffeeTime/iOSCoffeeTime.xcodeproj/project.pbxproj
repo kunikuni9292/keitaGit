@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C33802922711531700F01BB1 /* SecondeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33802912711531700F01BB1 /* SecondeViewController.storyboard */; };
+		C33802942711532C00F01BB1 /* SecondeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33802932711532C00F01BB1 /* SecondeViewController.swift */; };
+		C3D604A0271154EC00699021 /* StoryBoardInstiatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D6049D271154EC00699021 /* StoryBoardInstiatable.swift */; };
+		C3D604A1271154EC00699021 /* StoryBoardInstantiateType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D6049E271154EC00699021 /* StoryBoardInstantiateType.swift */; };
+		C3D604A2271154EC00699021 /* ClassNameProtcol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D6049F271154EC00699021 /* ClassNameProtcol.swift */; };
 		C3EF50BC27113FDB008F7046 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF50BB27113FDB008F7046 /* AppDelegate.swift */; };
 		C3EF50BE27113FDB008F7046 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF50BD27113FDB008F7046 /* SceneDelegate.swift */; };
 		C3EF50C027113FDB008F7046 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF50BF27113FDB008F7046 /* ViewController.swift */; };
@@ -14,10 +19,14 @@
 		C3EF50C627113FDB008F7046 /* iOSCoffeeTime.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C3EF50C427113FDB008F7046 /* iOSCoffeeTime.xcdatamodeld */; };
 		C3EF50C827113FE0008F7046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3EF50C727113FE0008F7046 /* Assets.xcassets */; };
 		C3EF50CB27113FE0008F7046 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3EF50C927113FE0008F7046 /* LaunchScreen.storyboard */; };
-		C3EF50E427114E88008F7046 /* Utill in Resources */ = {isa = PBXBuildFile; fileRef = C3EF50E327114E88008F7046 /* Utill */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C33802912711531700F01BB1 /* SecondeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SecondeViewController.storyboard; sourceTree = "<group>"; };
+		C33802932711532C00F01BB1 /* SecondeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondeViewController.swift; sourceTree = "<group>"; };
+		C3D6049D271154EC00699021 /* StoryBoardInstiatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryBoardInstiatable.swift; sourceTree = "<group>"; };
+		C3D6049E271154EC00699021 /* StoryBoardInstantiateType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryBoardInstantiateType.swift; sourceTree = "<group>"; };
+		C3D6049F271154EC00699021 /* ClassNameProtcol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassNameProtcol.swift; sourceTree = "<group>"; };
 		C3EF50B827113FDB008F7046 /* iOSCoffeeTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSCoffeeTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3EF50BB27113FDB008F7046 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3EF50BD27113FDB008F7046 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,7 +36,6 @@
 		C3EF50C727113FE0008F7046 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3EF50CA27113FE0008F7046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3EF50CC27113FE0008F7046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C3EF50E327114E88008F7046 /* Utill */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Utill; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +49,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C3D6049C271154EC00699021 /* Utill */ = {
+			isa = PBXGroup;
+			children = (
+				C3D6049D271154EC00699021 /* StoryBoardInstiatable.swift */,
+				C3D6049E271154EC00699021 /* StoryBoardInstantiateType.swift */,
+				C3D6049F271154EC00699021 /* ClassNameProtcol.swift */,
+			);
+			path = Utill;
+			sourceTree = "<group>";
+		};
 		C3EF50AF27113FDB008F7046 = {
 			isa = PBXGroup;
 			children = (
@@ -60,8 +78,8 @@
 		C3EF50BA27113FDB008F7046 /* iOSCoffeeTime */ = {
 			isa = PBXGroup;
 			children = (
-				C3EF50E327114E88008F7046 /* Utill */,
 				C3EF50BB27113FDB008F7046 /* AppDelegate.swift */,
+				C3D6049C271154EC00699021 /* Utill */,
 				C3EF50BD27113FDB008F7046 /* SceneDelegate.swift */,
 				C3EF50BF27113FDB008F7046 /* ViewController.swift */,
 				C3EF50C127113FDB008F7046 /* Main.storyboard */,
@@ -69,6 +87,8 @@
 				C3EF50C927113FE0008F7046 /* LaunchScreen.storyboard */,
 				C3EF50CC27113FE0008F7046 /* Info.plist */,
 				C3EF50C427113FDB008F7046 /* iOSCoffeeTime.xcdatamodeld */,
+				C33802912711531700F01BB1 /* SecondeViewController.storyboard */,
+				C33802932711532C00F01BB1 /* SecondeViewController.swift */,
 			);
 			path = iOSCoffeeTime;
 			sourceTree = "<group>";
@@ -132,8 +152,8 @@
 			files = (
 				C3EF50CB27113FE0008F7046 /* LaunchScreen.storyboard in Resources */,
 				C3EF50C827113FE0008F7046 /* Assets.xcassets in Resources */,
+				C33802922711531700F01BB1 /* SecondeViewController.storyboard in Resources */,
 				C3EF50C327113FDB008F7046 /* Main.storyboard in Resources */,
-				C3EF50E427114E88008F7046 /* Utill in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,8 +166,12 @@
 			files = (
 				C3EF50C627113FDB008F7046 /* iOSCoffeeTime.xcdatamodeld in Sources */,
 				C3EF50C027113FDB008F7046 /* ViewController.swift in Sources */,
+				C33802942711532C00F01BB1 /* SecondeViewController.swift in Sources */,
+				C3D604A2271154EC00699021 /* ClassNameProtcol.swift in Sources */,
+				C3D604A0271154EC00699021 /* StoryBoardInstiatable.swift in Sources */,
 				C3EF50BC27113FDB008F7046 /* AppDelegate.swift in Sources */,
 				C3EF50BE27113FDB008F7046 /* SceneDelegate.swift in Sources */,
+				C3D604A1271154EC00699021 /* StoryBoardInstantiateType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
