@@ -12,6 +12,8 @@
 		C3D604A0271154EC00699021 /* StoryBoardInstiatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D6049D271154EC00699021 /* StoryBoardInstiatable.swift */; };
 		C3D604A1271154EC00699021 /* StoryBoardInstantiateType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D6049E271154EC00699021 /* StoryBoardInstantiateType.swift */; };
 		C3D604A2271154EC00699021 /* ClassNameProtcol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D6049F271154EC00699021 /* ClassNameProtcol.swift */; };
+		C3D604A92719CCF700699021 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D604A72719CCF700699021 /* TableViewCell.swift */; };
+		C3D604AA2719CCF700699021 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3D604A82719CCF700699021 /* TableViewCell.xib */; };
 		C3EF50BC27113FDB008F7046 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF50BB27113FDB008F7046 /* AppDelegate.swift */; };
 		C3EF50BE27113FDB008F7046 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF50BD27113FDB008F7046 /* SceneDelegate.swift */; };
 		C3EF50C027113FDB008F7046 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF50BF27113FDB008F7046 /* ViewController.swift */; };
@@ -27,6 +29,8 @@
 		C3D6049D271154EC00699021 /* StoryBoardInstiatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryBoardInstiatable.swift; sourceTree = "<group>"; };
 		C3D6049E271154EC00699021 /* StoryBoardInstantiateType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryBoardInstantiateType.swift; sourceTree = "<group>"; };
 		C3D6049F271154EC00699021 /* ClassNameProtcol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassNameProtcol.swift; sourceTree = "<group>"; };
+		C3D604A72719CCF700699021 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		C3D604A82719CCF700699021 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		C3EF50B827113FDB008F7046 /* iOSCoffeeTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSCoffeeTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3EF50BB27113FDB008F7046 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3EF50BD27113FDB008F7046 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +93,8 @@
 				C3EF50C427113FDB008F7046 /* iOSCoffeeTime.xcdatamodeld */,
 				C33802912711531700F01BB1 /* SecondeViewController.storyboard */,
 				C33802932711532C00F01BB1 /* SecondeViewController.swift */,
+				C3D604A72719CCF700699021 /* TableViewCell.swift */,
+				C3D604A82719CCF700699021 /* TableViewCell.xib */,
 			);
 			path = iOSCoffeeTime;
 			sourceTree = "<group>";
@@ -151,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3EF50CB27113FE0008F7046 /* LaunchScreen.storyboard in Resources */,
+				C3D604AA2719CCF700699021 /* TableViewCell.xib in Resources */,
 				C3EF50C827113FE0008F7046 /* Assets.xcassets in Resources */,
 				C33802922711531700F01BB1 /* SecondeViewController.storyboard in Resources */,
 				C3EF50C327113FDB008F7046 /* Main.storyboard in Resources */,
@@ -167,6 +174,7 @@
 				C3EF50C627113FDB008F7046 /* iOSCoffeeTime.xcdatamodeld in Sources */,
 				C3EF50C027113FDB008F7046 /* ViewController.swift in Sources */,
 				C33802942711532C00F01BB1 /* SecondeViewController.swift in Sources */,
+				C3D604A92719CCF700699021 /* TableViewCell.swift in Sources */,
 				C3D604A2271154EC00699021 /* ClassNameProtcol.swift in Sources */,
 				C3D604A0271154EC00699021 /* StoryBoardInstiatable.swift in Sources */,
 				C3EF50BC27113FDB008F7046 /* AppDelegate.swift in Sources */,
