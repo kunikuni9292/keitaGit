@@ -90,7 +90,6 @@
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemGreenColor"/>
                                         <constraints>
                                             <constraint firstItem="EiO-0s-zZy" firstAttribute="leading" secondItem="HxJ-e9-pQJ" secondAttribute="leading" id="1LN-rW-EdW"/>
                                             <constraint firstAttribute="bottom" secondItem="Qjc-h1-g4c" secondAttribute="bottom" id="1eA-Av-BL2"/>
@@ -184,9 +183,6 @@
         </systemColor>
         <systemColor name="systemGray2Color">
             <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
