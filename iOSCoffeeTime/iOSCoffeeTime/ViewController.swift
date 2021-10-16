@@ -55,9 +55,6 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         //タップした時の選択色を消す
         tableView.deselectRow(at: indexPath as IndexPath, animated: true)
-        //セルタップした時に次の画面に遷移
-//        let vc = SecondeViewController.instantiate()
-//        navigationController?.pushViewController(vc, animated: true)
         
         //外部ブラウザでURLを開く
         let url = NSURL(string: cafeUrlArray[indexPath.row])

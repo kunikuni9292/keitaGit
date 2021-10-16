@@ -23,7 +23,15 @@ class SecondeViewController: UIViewController, StoryBoardInstiatable {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
+    //ここにURL押した時のアクションを追加する
+    @IBAction func didTapUrlButton(_ sender: UIButton) {
+        
+    }
+    
 }
+
+
 
 extension SecondeViewController: UICollectionViewDelegate, UICollectionViewDataSource {
     //コレクションViewの表示する数
@@ -37,6 +45,11 @@ extension SecondeViewController: UICollectionViewDelegate, UICollectionViewDataS
         return cell
     }
     
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        let horizontalSpace : CGFloat = 20
+        let cellSize : CGFloat = self.view.bounds.width / 3 - horizontalSpace
+        return CGSize(width: cellSize, height: cellSize)
+    }
     
     
 }
