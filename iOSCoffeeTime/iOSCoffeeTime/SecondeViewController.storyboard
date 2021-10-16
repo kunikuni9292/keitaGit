@@ -125,7 +125,6 @@
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DzZ-zm-Qoz" userLabel="URLButton">
                                 <rect key="frame" x="20" y="561" width="190.5" height="30"/>
-                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="didTapUrlButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="kQj-69-yU0"/>
                                 </connections>

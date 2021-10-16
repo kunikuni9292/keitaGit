@@ -26,7 +26,11 @@ class SecondeViewController: UIViewController, StoryBoardInstiatable {
     
     //ここにURL押した時のアクションを追加する
     @IBAction func didTapUrlButton(_ sender: UIButton) {
-        
+        //外部ブラウザでURLを開く
+        let url = NSURL(string: "https://mondoor.net/")
+        if UIApplication.shared.canOpenURL(url! as URL) {
+            UIApplication.shared.open(url! as URL, options: [:], completionHandler: nil)
+        }
     }
     
 }
