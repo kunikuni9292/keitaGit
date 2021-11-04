@@ -1,32 +1,66 @@
 <!doctype html>
 <html lang="ja">
+
 <head>
-<meta charset="UTF-8">
-<title>Dooglei</title>
-<link rel="stylesheet" type="text/css" href="google.css">
+    <meta charset="UTF-8">
+    <title>Dooglei</title>
+    <link rel="stylesheet" type="text/css" href="google.css">
 
 </head>
+
 <body>
-<br>
-<br>
-<br>
-<br>
-<div align="center">
-<img src="Dooglei.jpeg" class="Dooglei">
-</div>
-<div align="center">
-<form method="get" action="http://www.google.co.jp/search" target="_blank">
-<input type="text" name="q" style="width:550px;height:45px" class="textbox" maxlength="255" value="">
-<input type="hidden" name="hl" value="ja">
-<div align="center">
-<button class="button1" type="submit" name="btng" >Dooglei 検索</button>
-<button class="button2" type="submit">Don't be shy</button>
-</div>
-</form>
-<div align="center">
-<!--<p>僕らにしかできない旅がある。</p>-->
-<p>僕らの一歩を誰かの一歩に</p>
-</div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div align="center">
+        <img src="googlesample1.png" class="Dooglei">
+    </div>
+    <div align="center">
+        <form method="get" action="http://www.google.co.jp/search" target="_blank">
+<div class="searchtextbox">
+
+            <input type="text" name="q" style="width:550px;height:45px" class="textbox" maxlength="255" value="">
+            <img class="searchimg" src="search.png" >
+
+        </div>
+            <div class="checkListBox">
+                <input id="checkListid" class="checkList" value="1" type="checkbox" onchange="checkValue(this)"
+                    autocomplete="off">
+                    <label class="checkListLabel" for="checkList">ここにチェックを入れる</label>
+
+            </div>
+
+    </div>
+    <div align="center">
+        <button class="button1" type="submit" name="btng" id="nextButton">Dooglei 検索</button>
+        <button class="button2" type="submit">Don't be shy</button>
+    </div>
+    </form>
+    <div align="center">
+        <!--<p>僕らにしかできない旅がある。</p>-->
+        <p>僕らの一歩を誰かの一歩に</p>
+    </div>
+
+
+    <script>
+        function checkValue(check) {
+            const currentCheckBox = document.getElementsByClassName('checkList')
+            let checkedcount = 0;
+            checkedcount = Array.prototype.filter.call(currentCheckBox, function (item) {
+                return item.checked;
+            }).length;
+            var btn = document.getElementById('nextButton');
+            if (currentCheckBox.length === checkedcount) {
+                btn.removeAttribute('disabled');
+                btn.style.backgroundColor = "#00b33f";
+            } else {
+                btn.setAttribute('disabled', 'disabled');
+                btn.style.backgroundColor = "#d9d9d9"
+            }
+        }
+    </script>
 
 </body>
+
 </html>
