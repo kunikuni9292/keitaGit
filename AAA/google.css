@@ -1,0 +1,111 @@
+h2{
+  font-size: 40px;
+}
+p{
+	color:#0000cd
+}
+img.Dooglei{
+    /*Doguleiの画像大きさ*/
+    width: 350px; 
+    height: 200px;
+}
+button.button1 {
+	font-size: 0.85em;
+    /*ボタンの幅*/
+    width: 110px;
+    height: 35px;
+     /* 縦方向に30px、
+     * 横方向に2pxの余白を指定 
+     *下方向に20pxの余白を指定*/
+    margin: 30px 2px 15px;
+    /*文字の色変更*/
+    color:#666666;
+    /* 文字の太さをboldに指定 */
+    font-weight: bold;
+    /* 背景色を濃い青色に指定 */
+    background-color: #f5f5f5;
+    /* 角丸の指定 */
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+  /* ボーダーをなくす */
+    border-style: solid;
+    border-width: 1px;
+    border-color: #f6f5f5;
+}
+button.button1:hover {
+    /* 文字色を白色に指定 */
+    color: #000000;
+     /* ボタンの影の指定*/
+    box-shadow: 0px 1px 6px -3px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0px 1px 6px -3px rgba(0,0,0,0.6);
+  -moz-box-shadow: 0px 1px 6px -3px rgba(0,0,0,0.6);
+  /* ボーダー */
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+}
+button.button2 {
+	font-size: 0.85em;
+    /*ボタンの幅*/
+    width: 150px;
+    height: 35px;
+     /* 縦方向に30px、
+     * 横方向に3pxの余白を指定 
+     *下方向に20pxの余白を指定*/
+    margin: 30px 2px 15px;
+   /*文字の色変更*/
+    color:#666666;
+    /* 文字の太さをboldに指定 */
+    font-weight: bold;
+    /* 背景色を濃い青色に指定 */
+    background-color: #f5f5f5;
+    /* 角丸の指定 */
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+  /* ボーダーをなくす */
+    border-style: solid;
+    border-width: 1px;
+    border-color: #f6f5f5;
+}
+button.button2:hover {
+    /* 文字色を白色に指定 */
+    color: #000000;
+     /* ボタンの影の指定*/
+    box-shadow: 0px 1px 6px -3px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0px 1px 6px -3px rgba(0,0,0,0.6);
+  -moz-box-shadow: 0px 1px 6px -3px rgba(0,0,0,0.6);
+  /* ボーダー */
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+}
+input.textbox{
+	     /* 縦方向に30px、
+     * 横方向に3pxの余白を指定 
+     *下方向に20pxの余白を指定*/
+    padding: 0px 20px;
+     /*フォントサイズ*/
+	font-size: 1em;
+	/*選択時の青枠非表示*/
+	outline: none;
+	/* ボーダー */
+    border-style: solid;
+    border-width: 1px;
+    border-color: #f5f5f5;
+       /* テキストの影の指定*/
+    box-shadow: 0px 1px 4px -3px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0px 1px 4px -3px rgba(0,0,0,0.6);
+  -moz-box-shadow: 0px 1px 4px -3px rgba(0,0,0,0.6);
+}
+input.textbox:hover{
+	  /* テキストの影の指定*/
+	 box-shadow: 1px 3px 5px -3px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 1px 3px 5px -3px rgba(0,0,0,0.6);
+  -moz-box-shadow: 1px 3px 5px -3px rgba(0,0,0,0.6);
+}
+
+
+
+
